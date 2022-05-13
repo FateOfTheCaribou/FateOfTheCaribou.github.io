@@ -79,7 +79,7 @@
 
 .u-section-2 .u-image-1 {
   min-height: 655px;
-  background-image: url("images/Schematic.png");
+  background-image: url("images/Schematic.jpg");
   background-position: 50% 50%;
 }
 
@@ -388,7 +388,7 @@
 }
 
 .u-section-3 .u-text-12 {
-  margin: 60px auto 0 397px;
+  margin: 59px auto 0 424px;
 }
 
 .u-section-3 .u-tab-pane-5 {
@@ -836,8 +836,8 @@
 
   .u-section-3 .u-text-10 {
     margin-top: -328px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-right: -17px;
+    margin-left: 18px;
   }
 
   .u-section-3 .u-text-11 {

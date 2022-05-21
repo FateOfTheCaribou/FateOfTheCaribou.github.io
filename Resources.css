@@ -55,16 +55,38 @@
 }
 
 .u-section-2 .u-text-2 {
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 40px;
+  margin: 20px 659px 40px 0;
 }
 
 .u-section-2 .u-btn-1 {
   background-image: none;
   padding: 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 459px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 239px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 59px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-2 {
+    margin-right: 0;
+  }
 }.u-section-3 .u-sheet-1 {
-  min-height: 291px;
+  min-height: 196px;
 }
 
 .u-section-3 .u-text-1 {
@@ -72,7 +94,7 @@
 }
 
 .u-section-3 .u-text-2 {
-  margin: 20px 0 40px;
+  margin: 20px 0 60px;
 }
 
 .u-section-3 .u-btn-1 {
@@ -80,32 +102,78 @@
   padding: 0;
 }
 
-.u-section-3 .u-btn-2 {
+@media (max-width: 1199px) {
+  .u-section-3 .u-text-2 {
+    width: auto;
+    margin-right: 99px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-3 .u-text-2 {
+    margin-right: 0;
+  }
+}.u-section-4 .u-sheet-1 {
+  min-height: 291px;
+}
+
+.u-section-4 .u-text-1 {
+  margin: 20px auto 0 0;
+}
+
+.u-section-4 .u-text-2 {
+  margin: 20px 0 40px;
+}
+
+.u-section-4 .u-btn-1 {
+  font-family: 'EB Garamond';
+  font-size: 1rem;
   background-image: none;
   padding: 0;
 }
 
-.u-section-3 .u-btn-3 {
+.u-section-4 .u-btn-2 {
   background-image: none;
   padding: 0;
 }
 
-.u-section-3 .u-btn-4 {
+.u-section-4 .u-btn-3 {
   background-image: none;
   padding: 0;
 }
 
-.u-section-3 .u-btn-5 {
+.u-section-4 .u-btn-4 {
   background-image: none;
   padding: 0;
 }
 
-.u-section-3 .u-btn-6 {
+.u-section-4 .u-btn-5 {
+  background-image: none;
+  margin-top: 2px;
+  padding: 0;
+}
+
+.u-section-4 .u-btn-6 {
   background-image: none;
   padding: 0;
 }
 
-.u-section-3 .u-btn-7 {
+.u-section-4 .u-btn-7 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-4 .u-btn-8 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-4 .u-btn-9 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-4 .u-btn-10 {
   background-image: none;
   padding: 0;
 }

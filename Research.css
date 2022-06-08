@@ -448,7 +448,7 @@
 }
 
 .u-section-3 .u-text-15 {
-  margin: -119px auto 94px 428px;
+  margin: -130px auto 0 429px;
 }
 
 @media (max-width: 1199px) {
@@ -586,7 +586,6 @@
   .u-section-3 .u-text-15 {
     width: auto;
     margin-top: -251px;
-    margin-bottom: 0;
     margin-left: 415px;
   }
 }

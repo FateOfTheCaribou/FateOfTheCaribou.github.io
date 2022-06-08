@@ -714,9 +714,10 @@
 }
 
 .u-section-6 .u-repeater-1 {
-  grid-template-columns: 100%;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
   min-height: 638px;
   grid-gap: 0px 0px;
+  grid-auto-columns: 33.3333%;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -724,7 +725,7 @@
 }
 
 .u-section-6 .u-image-1 {
-  height: 311px;
+  height: 327px;
   width: 311px;
   margin: 37px auto 0;
 }
@@ -750,6 +751,68 @@
   margin: 17px auto 0;
 }
 
+.u-section-6 .u-container-layout-2 {
+  padding: 0 30px;
+}
+
+.u-section-6 .u-image-2 {
+  height: 327px;
+  width: 311px;
+  margin: 37px auto 0;
+}
+
+.u-section-6 .u-text-5 {
+  margin: 17px auto 0;
+}
+
+.u-section-6 .u-text-6 {
+  margin: 17px 0 0;
+}
+
+.u-section-6 .u-text-7 {
+  margin: 27px 0 0;
+}
+
+.u-section-6 .u-btn-2 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 17px auto 0;
+}
+
+.u-section-6 .u-container-layout-3 {
+  padding: 0 30px;
+}
+
+.u-section-6 .u-image-3 {
+  height: 327px;
+  width: 311px;
+  margin: 37px auto 0;
+}
+
+.u-section-6 .u-text-8 {
+  margin: 17px auto 0;
+}
+
+.u-section-6 .u-text-9 {
+  margin: 17px 0 0;
+}
+
+.u-section-6 .u-text-10 {
+  margin: 27px 0 0;
+}
+
+.u-section-6 .u-btn-3 {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  border-style: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 17px auto 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-6 .u-text-1 {
     margin-top: 125px;
@@ -757,6 +820,12 @@
 
   .u-section-6 .u-list-1 {
     margin-top: 20px;
+  }
+
+  .u-section-6 .u-repeater-1 {
+    grid-template-columns: repeat(3, 33.333333333333336%);
+    min-height: 526px;
+    grid-auto-columns: 33.333333333333336%;
   }
 }
 
@@ -770,7 +839,9 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    min-height: 663px;
+    grid-template-columns: repeat(2, 50%);
+    min-height: 1209px;
+    grid-auto-columns: 50%;
   }
 }
 
@@ -790,7 +861,22 @@
     margin-bottom: 18px;
   }
 
+  .u-section-6 .u-repeater-1 {
+    grid-template-columns: 100%;
+    grid-auto-columns: 100%;
+  }
+
   .u-section-6 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-6 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-6 .u-container-layout-3 {
     padding-left: 10px;
     padding-right: 10px;
   }

@@ -68,6 +68,11 @@
   padding: 0;
 }
 
+.u-section-2 .u-btn-3 {
+  background-image: none;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-2 .u-text-2 {
     margin-right: 0;
@@ -115,6 +120,11 @@
 }
 
 .u-section-3 .u-btn-7 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-3 .u-btn-8 {
   background-image: none;
   padding: 0;
 }

@@ -129,6 +129,11 @@
   padding: 0;
 }
 
+.u-section-3 .u-btn-9 {
+  background-image: none;
+  padding: 0;
+}
+
 @media (max-width: 1199px) {
   .u-section-3 .u-text-2 {
     width: auto;

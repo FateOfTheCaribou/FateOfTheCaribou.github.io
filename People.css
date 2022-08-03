@@ -104,7 +104,9 @@
   }
 
   .u-section-2 .u-btn-2 {
-    margin-left: 294px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-bottom: 53px;
   }
 }
 
@@ -114,16 +116,6 @@
   }
 
   .u-section-2 .u-text-3 {
-    margin-left: 0;
-  }
-
-  .u-section-2 .u-btn-2 {
-    margin-left: 74px;
-  }
-}
-
-@media (max-width: 767px) {
-  .u-section-2 .u-btn-2 {
     margin-left: 0;
   }
 }
@@ -868,8 +860,8 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    grid-template-columns: 33.3333% 33.3333% 33.3333%;
     min-height: 526px;
+    grid-auto-columns: 50%;
   }
 }
 
@@ -883,7 +875,7 @@
   }
 
   .u-section-6 .u-repeater-1 {
-    grid-template-columns: 50% 50%;
+    grid-auto-columns: 100%;
   }
 }
 
